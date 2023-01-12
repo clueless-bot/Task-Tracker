@@ -1,0 +1,110 @@
+body{
+  background-color: black;
+
+}
+
+.btn{
+  color: azure;
+  background-color: black;
+  width: 50px;
+  height: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.btn_save_task{
+  color: azure;
+  background-color: black;
+  width: 500px;
+  height: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+
+.container{
+  position: absolute;
+  border-radius: 25px;
+  border: 2px solid #F8F8F8;
+  padding: 20px; 
+  min-width: 500px;
+  top: 80px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  margin-left: 500px;
+  background-color: #F8F8F8;
+}
+
+.task{
+  position: relative;
+  background-color: black;
+  padding: 2rem;
+  text-align: left;
+  min-width: 600px;
+  max-height: 40px;
+}
+
+h3.task{
+  color: whitesmoke;
+}
+
+.header{
+
+  padding-left: 45px;
+}
+
+.task_button{
+  position: relative;
+  left: 100px;
+  top: -10px;
+}
+
+.delete_button{
+  position: absolute;
+  right: 25px;
+  bottom: 20px;
+}
+
+.falsereminder{
+  position: absolute;
+  color: #b3b3b3;
+  right: 25px;
+}
+
+.truereminder{
+  position: absolute;
+  color: aqua;
+  right: 25px;  
+}
+
+p.task_time{
+  position: relative;
+  top:-15px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+input::placeholder{
+  color: gray;
+}
+
+.input{
+  min-width: 100px;
+  min-height: 25px;
+  position: relative;
+  top: -10px;
+  background-color: black;
+  color: white;  
+}
+
+.input_checkbox{
+  position: relative;
+  right: 120px;
+  top: -37px;
+}
